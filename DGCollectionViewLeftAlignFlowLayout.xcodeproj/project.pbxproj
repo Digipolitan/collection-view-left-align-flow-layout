@@ -1,0 +1,915 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		391BAC284DC009AE1539290B /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A384675619DA33B089AA63D5 /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_iOS.framework */; };
+		A3169DBA1DE05E8300BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DB01DE05E8300BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework */; };
+		A3169DD61DE0631900BABAFD /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* TemplateClass.swift */; };
+		A3169DF81DE0718900BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DEF1DE0718900BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework */; };
+		A3169E761DE083D900BABAFD /* DGCollectionViewLeftAlignFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* DGCollectionViewLeftAlignFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3169E781DE083D900BABAFD /* DGCollectionViewLeftAlignFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* DGCollectionViewLeftAlignFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A38EF2CA1DECF97000637484 /* DGCollectionViewLeftAlignFlowLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* DGCollectionViewLeftAlignFlowLayoutTests.swift */; };
+		A38EF2CB1DECF97000637484 /* DGCollectionViewLeftAlignFlowLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* DGCollectionViewLeftAlignFlowLayoutTests.swift */; };
+		A3EAC50D1DE5FCBB00E4AA5E /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* TemplateClass.swift */; };
+		AB52C8698A273EEF859679C8 /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CB072CD7D856D32A81ED66 /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_tvOS.framework */; };
+		D18974EB8F0146E2BC8382B0 /* Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808D3B97D037CEEFAC85B152 /* Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_iOS.framework */; };
+		F0BFAB0E57A841A29051C5B7 /* Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C244503EFE94245B362A9DC /* Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_tvOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3169DBB1DE05E8300BABAFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3169DA71DE05E8300BABAFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3169DAF1DE05E8300BABAFD;
+			remoteInfo = DGCollectionViewLeftAlignFlowLayout;
+		};
+		A3169DF91DE0718900BABAFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3169DA71DE05E8300BABAFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3169DEE1DE0718900BABAFD;
+			remoteInfo = DGCollectionViewLeftAlignFlowLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		230BD5A4DC5E4E2B0ADC567B /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS/Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		3CBA85AD7AD9AA45D2FC07E7 /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS/Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4C244503EFE94245B362A9DC /* Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75573C963F69174FD24F380F /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS/Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		808D3B97D037CEEFAC85B152 /* Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3E39F7A44F91D0F0A01789 /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS/Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A3169DB01DE05E8300BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DGCollectionViewLeftAlignFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3169DB91DE05E8300BABAFD /* DGCollectionViewLeftAlignFlowLayoutTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DGCollectionViewLeftAlignFlowLayoutTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3169DCC1DE0629100BABAFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3169DD11DE062A000BABAFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3169DD41DE0631900BABAFD /* TemplateClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateClass.swift; sourceTree = "<group>"; };
+		A3169DDE1DE06EF400BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DGCollectionViewLeftAlignFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3169DEF1DE0718900BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DGCollectionViewLeftAlignFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3169DF71DE0718900BABAFD /* DGCollectionViewLeftAlignFlowLayoutTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DGCollectionViewLeftAlignFlowLayoutTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3169E0C1DE072C700BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DGCollectionViewLeftAlignFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3169E141DE072C800BABAFD /* DGCollectionViewLeftAlignFlowLayoutTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DGCollectionViewLeftAlignFlowLayoutTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3169E751DE083D900BABAFD /* DGCollectionViewLeftAlignFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCollectionViewLeftAlignFlowLayout.h; sourceTree = "<group>"; };
+		A384675619DA33B089AA63D5 /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38EF2C71DECF97000637484 /* DGCollectionViewLeftAlignFlowLayoutTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCollectionViewLeftAlignFlowLayoutTests.swift; sourceTree = "<group>"; };
+		A780B899A19AFC14633C88DB /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS/Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		BC34AB773E6BCA1F21FC4A4F /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS/Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D23013C7B916B914A529A963 /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS/Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		E5CB072CD7D856D32A81ED66 /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68179E9A79AEFD2066F6DAE /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS/Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3169DAC1DE05E8300BABAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18974EB8F0146E2BC8382B0 /* Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DB61DE05E8300BABAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3169DBA1DE05E8300BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework in Frameworks */,
+				391BAC284DC009AE1539290B /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DEB1DE0718900BABAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BFAB0E57A841A29051C5B7 /* Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DF41DE0718900BABAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3169DF81DE0718900BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework in Frameworks */,
+				AB52C8698A273EEF859679C8 /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2803C36D3E90DAA7A18575E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				808D3B97D037CEEFAC85B152 /* Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_iOS.framework */,
+				4C244503EFE94245B362A9DC /* Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_tvOS.framework */,
+				A384675619DA33B089AA63D5 /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_iOS.framework */,
+				E5CB072CD7D856D32A81ED66 /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_tvOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7729F4D3EC858A890E8A252A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC34AB773E6BCA1F21FC4A4F /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.debug.xcconfig */,
+				230BD5A4DC5E4E2B0ADC567B /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.release.xcconfig */,
+				75573C963F69174FD24F380F /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.debug.xcconfig */,
+				D23013C7B916B914A529A963 /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.release.xcconfig */,
+				3CBA85AD7AD9AA45D2FC07E7 /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.debug.xcconfig */,
+				F68179E9A79AEFD2066F6DAE /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.release.xcconfig */,
+				9B3E39F7A44F91D0F0A01789 /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.debug.xcconfig */,
+				A780B899A19AFC14633C88DB /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3169DA61DE05E8300BABAFD = {
+			isa = PBXGroup;
+			children = (
+				A3169DCA1DE0629100BABAFD /* Sources */,
+				A3169DCF1DE062A000BABAFD /* Tests */,
+				A3169DB11DE05E8300BABAFD /* Products */,
+				7729F4D3EC858A890E8A252A /* Pods */,
+				2803C36D3E90DAA7A18575E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A3169DB11DE05E8300BABAFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3169DB01DE05E8300BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework */,
+				A3169DB91DE05E8300BABAFD /* DGCollectionViewLeftAlignFlowLayoutTests-iOS.xctest */,
+				A3169DDE1DE06EF400BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework */,
+				A3169DEF1DE0718900BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework */,
+				A3169DF71DE0718900BABAFD /* DGCollectionViewLeftAlignFlowLayoutTests-tvOS.xctest */,
+				A3169E0C1DE072C700BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework */,
+				A3169E141DE072C800BABAFD /* DGCollectionViewLeftAlignFlowLayoutTests-OSX.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3169DCA1DE0629100BABAFD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A3169DD41DE0631900BABAFD /* TemplateClass.swift */,
+				A3169E751DE083D900BABAFD /* DGCollectionViewLeftAlignFlowLayout.h */,
+				A3169DCC1DE0629100BABAFD /* Info.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A3169DCF1DE062A000BABAFD /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A38EF2C61DECF97000637484 /* DGCollectionViewLeftAlignFlowLayoutTests */,
+				A3169DD11DE062A000BABAFD /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		A38EF2C61DECF97000637484 /* DGCollectionViewLeftAlignFlowLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				A38EF2C71DECF97000637484 /* DGCollectionViewLeftAlignFlowLayoutTests.swift */,
+			);
+			path = DGCollectionViewLeftAlignFlowLayoutTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A3169E281DE07B0500BABAFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3169E781DE083D900BABAFD /* DGCollectionViewLeftAlignFlowLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169E631DE0804300BABAFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3169E761DE083D900BABAFD /* DGCollectionViewLeftAlignFlowLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A3169DAF1DE05E8300BABAFD /* DGCollectionViewLeftAlignFlowLayout-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3169DC41DE05E8300BABAFD /* Build configuration list for PBXNativeTarget "DGCollectionViewLeftAlignFlowLayout-iOS" */;
+			buildPhases = (
+				6CE9896482DDC7BED9EFA572 /* [CP] Check Pods Manifest.lock */,
+				A3169DAB1DE05E8300BABAFD /* Sources */,
+				A3169DAC1DE05E8300BABAFD /* Frameworks */,
+				A3169DAE1DE05E8300BABAFD /* Resources */,
+				A3169DD81DE0654400BABAFD /* Swiftlint */,
+				A3169E631DE0804300BABAFD /* Headers */,
+				0427B966932ACEF26AE6D585 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DGCollectionViewLeftAlignFlowLayout-iOS";
+			productName = DGCollectionViewLeftAlignFlowLayout;
+			productReference = A3169DB01DE05E8300BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3169DB81DE05E8300BABAFD /* DGCollectionViewLeftAlignFlowLayoutTests-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3169DC71DE05E8300BABAFD /* Build configuration list for PBXNativeTarget "DGCollectionViewLeftAlignFlowLayoutTests-iOS" */;
+			buildPhases = (
+				B790E1F519E12ACE1D5BFFDA /* [CP] Check Pods Manifest.lock */,
+				A3169DB51DE05E8300BABAFD /* Sources */,
+				A3169DB61DE05E8300BABAFD /* Frameworks */,
+				A3169DB71DE05E8300BABAFD /* Resources */,
+				1E6A1CF307832204EEDD154D /* [CP] Embed Pods Frameworks */,
+				C2E8669BD220E79E01F29171 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3169DBC1DE05E8300BABAFD /* PBXTargetDependency */,
+			);
+			name = "DGCollectionViewLeftAlignFlowLayoutTests-iOS";
+			productName = DGCollectionViewLeftAlignFlowLayoutTests;
+			productReference = A3169DB91DE05E8300BABAFD /* DGCollectionViewLeftAlignFlowLayoutTests-iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3169DEE1DE0718900BABAFD /* DGCollectionViewLeftAlignFlowLayout-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3169E001DE0718900BABAFD /* Build configuration list for PBXNativeTarget "DGCollectionViewLeftAlignFlowLayout-tvOS" */;
+			buildPhases = (
+				31A78D2B557D03AC9CA1BA5A /* [CP] Check Pods Manifest.lock */,
+				A3169DEA1DE0718900BABAFD /* Sources */,
+				A3169DEB1DE0718900BABAFD /* Frameworks */,
+				A3169DED1DE0718900BABAFD /* Resources */,
+				A3169E061DE0727A00BABAFD /* Swiftlint */,
+				A3169E281DE07B0500BABAFD /* Headers */,
+				1F8B35C3B1F681EF9CA9AC5F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DGCollectionViewLeftAlignFlowLayout-tvOS";
+			productName = DGCollectionViewLeftAlignFlowLayout;
+			productReference = A3169DEF1DE0718900BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3169DF61DE0718900BABAFD /* DGCollectionViewLeftAlignFlowLayoutTests-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3169E031DE0718900BABAFD /* Build configuration list for PBXNativeTarget "DGCollectionViewLeftAlignFlowLayoutTests-tvOS" */;
+			buildPhases = (
+				CC48F1743686F16A85AF6DF9 /* [CP] Check Pods Manifest.lock */,
+				A3169DF31DE0718900BABAFD /* Sources */,
+				A3169DF41DE0718900BABAFD /* Frameworks */,
+				A3169DF51DE0718900BABAFD /* Resources */,
+				B5DE6CEB8E7250E337CE4AB0 /* [CP] Embed Pods Frameworks */,
+				1DECE6CD42EB9C2BAF84E534 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3169DFA1DE0718900BABAFD /* PBXTargetDependency */,
+			);
+			name = "DGCollectionViewLeftAlignFlowLayoutTests-tvOS";
+			productName = DGCollectionViewLeftAlignFlowLayoutTests;
+			productReference = A3169DF71DE0718900BABAFD /* DGCollectionViewLeftAlignFlowLayoutTests-tvOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3169DA71DE05E8300BABAFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Digipolitan;
+				TargetAttributes = {
+					A3169DAF1DE05E8300BABAFD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 582762VK3P;
+						ProvisioningStyle = Automatic;
+					};
+					A3169DB81DE05E8300BABAFD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 582762VK3P;
+						ProvisioningStyle = Automatic;
+					};
+					A3169DDD1DE06EF400BABAFD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 582762VK3P;
+						ProvisioningStyle = Automatic;
+					};
+					A3169DEE1DE0718900BABAFD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 582762VK3P;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					A3169DF61DE0718900BABAFD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 582762VK3P;
+						ProvisioningStyle = Automatic;
+					};
+					A3169E0B1DE072C700BABAFD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 582762VK3P;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					A3169E131DE072C800BABAFD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 582762VK3P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A3169DAA1DE05E8300BABAFD /* Build configuration list for PBXProject "DGCollectionViewLeftAlignFlowLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3169DA61DE05E8300BABAFD;
+			productRefGroup = A3169DB11DE05E8300BABAFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3169DAF1DE05E8300BABAFD /* DGCollectionViewLeftAlignFlowLayout-iOS */,
+				A3169DB81DE05E8300BABAFD /* DGCollectionViewLeftAlignFlowLayoutTests-iOS */,
+				A3169DEE1DE0718900BABAFD /* DGCollectionViewLeftAlignFlowLayout-tvOS */,
+				A3169DF61DE0718900BABAFD /* DGCollectionViewLeftAlignFlowLayoutTests-tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3169DAE1DE05E8300BABAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DB71DE05E8300BABAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DED1DE0718900BABAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DF51DE0718900BABAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0427B966932ACEF26AE6D585 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS/Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DECE6CD42EB9C2BAF84E534 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS/Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E6A1CF307832204EEDD154D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS/Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F8B35C3B1F681EF9CA9AC5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS/Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31A78D2B557D03AC9CA1BA5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6CE9896482DDC7BED9EFA572 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3169DD81DE0654400BABAFD /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		A3169E061DE0727A00BABAFD /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		B5DE6CEB8E7250E337CE4AB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS/Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B790E1F519E12ACE1D5BFFDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2E8669BD220E79E01F29171 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS/Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC48F1743686F16A85AF6DF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3169DAB1DE05E8300BABAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3169DD61DE0631900BABAFD /* TemplateClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DB51DE05E8300BABAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38EF2CA1DECF97000637484 /* DGCollectionViewLeftAlignFlowLayoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DEA1DE0718900BABAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EAC50D1DE5FCBB00E4AA5E /* TemplateClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DF31DE0718900BABAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38EF2CB1DECF97000637484 /* DGCollectionViewLeftAlignFlowLayoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3169DBC1DE05E8300BABAFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3169DAF1DE05E8300BABAFD /* DGCollectionViewLeftAlignFlowLayout-iOS */;
+			targetProxy = A3169DBB1DE05E8300BABAFD /* PBXContainerItemProxy */;
+		};
+		A3169DFA1DE0718900BABAFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3169DEE1DE0718900BABAFD /* DGCollectionViewLeftAlignFlowLayout-tvOS */;
+			targetProxy = A3169DF91DE0718900BABAFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3169DC21DE05E8300BABAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3169DC31DE05E8300BABAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3169DC51DE05E8300BABAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC34AB773E6BCA1F21FC4A4F /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.collectionviewleftalignflowlayout;
+				PRODUCT_NAME = DGCollectionViewLeftAlignFlowLayout;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A3169DC61DE05E8300BABAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 230BD5A4DC5E4E2B0ADC567B /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.collectionviewleftalignflowlayout;
+				PRODUCT_NAME = DGCollectionViewLeftAlignFlowLayout;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A3169DC81DE05E8300BABAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CBA85AD7AD9AA45D2FC07E7 /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.DGCollectionViewLeftAlignFlowLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3169DC91DE05E8300BABAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68179E9A79AEFD2066F6DAE /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.DGCollectionViewLeftAlignFlowLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3169E011DE0718900BABAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75573C963F69174FD24F380F /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.collectionviewleftalignflowlayout;
+				PRODUCT_NAME = DGCollectionViewLeftAlignFlowLayout;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		A3169E021DE0718900BABAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23013C7B916B914A529A963 /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.collectionviewleftalignflowlayout;
+				PRODUCT_NAME = DGCollectionViewLeftAlignFlowLayout;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		A3169E041DE0718900BABAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B3E39F7A44F91D0F0A01789 /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.DGCollectionViewLeftAlignFlowLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A3169E051DE0718900BABAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A780B899A19AFC14633C88DB /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.DGCollectionViewLeftAlignFlowLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3169DAA1DE05E8300BABAFD /* Build configuration list for PBXProject "DGCollectionViewLeftAlignFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3169DC21DE05E8300BABAFD /* Debug */,
+				A3169DC31DE05E8300BABAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3169DC41DE05E8300BABAFD /* Build configuration list for PBXNativeTarget "DGCollectionViewLeftAlignFlowLayout-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3169DC51DE05E8300BABAFD /* Debug */,
+				A3169DC61DE05E8300BABAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3169DC71DE05E8300BABAFD /* Build configuration list for PBXNativeTarget "DGCollectionViewLeftAlignFlowLayoutTests-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3169DC81DE05E8300BABAFD /* Debug */,
+				A3169DC91DE05E8300BABAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3169E001DE0718900BABAFD /* Build configuration list for PBXNativeTarget "DGCollectionViewLeftAlignFlowLayout-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3169E011DE0718900BABAFD /* Debug */,
+				A3169E021DE0718900BABAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3169E031DE0718900BABAFD /* Build configuration list for PBXNativeTarget "DGCollectionViewLeftAlignFlowLayoutTests-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3169E041DE0718900BABAFD /* Debug */,
+				A3169E051DE0718900BABAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3169DA71DE05E8300BABAFD /* Project object */;
+}

@@ -1,0 +1,5 @@
+github_url = "https://github.com"
+import_from_git(url: "#{github_url}/Digipolitan/fastlane-common")
+import_from_git(url: "#{github_url}/Digipolitan/fastlane-ios")
+import_from_git(url: "#{github_url}/Digipolitan/fastlane-ios-framework")
+import_from_git(url: "#{github_url}/Digipolitan/fastlane-ios-ci-framework")

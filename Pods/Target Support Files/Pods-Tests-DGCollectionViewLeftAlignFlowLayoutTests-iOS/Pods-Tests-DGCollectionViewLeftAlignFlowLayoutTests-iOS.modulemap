@@ -1,0 +1,6 @@
+framework module Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_iOS {
+  umbrella header "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

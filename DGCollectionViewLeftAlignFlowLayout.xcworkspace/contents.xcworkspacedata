@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:DGCollectionViewLeftAlignFlowLayout.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/DGCollectionViewLeftAlignFlowLayoutSample-iOS/DGCollectionViewLeftAlignFlowLayoutSample-iOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/DGCollectionViewLeftAlignFlowLayoutSample-tvOS/DGCollectionViewLeftAlignFlowLayoutSample-tvOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
