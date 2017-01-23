@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 s.name = "DGCollectionViewLeftAlignFlowLayout"
 s.version = "1.0.0"
 s.summary = "This is a summary."
-s.homepage = "https://github.com/Digipolitan/collection-view-left-align-flow-layout"
+s.homepage = "https://github.com/Digipolitan/collection-view-left-align-flow-layout-swift"
 s.authors = "Digipolitan"
 s.source = { :git => "https://github.com/Digipolitan/collection-view-left-align-flow-layout.git", :tag => "v#{s.version}" }
 s.license = { :type => "BSD", :file => "LICENSE" }
