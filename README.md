@@ -3,6 +3,12 @@ DGCollectionViewLeftAlignFlowLayout
 
 The `DGCollectionViewLeftAlignFlowLayout` is a simple layout that align does not try to fulfill the lines but stick elements to the left.
 
+![Original FlowLayout](https://github.com/Digipolitan/collection-view-left-align-flow-layout-swift/blob/develop/Screenshots/flow-layout.png?raw=true "Original")
+
+![Left Aligned](https://github.com/Digipolitan/collection-view-left-align-flow-layout-swift/blob/develop/Screenshots/left-layout.png?raw=true "Left Aligned")
+
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
