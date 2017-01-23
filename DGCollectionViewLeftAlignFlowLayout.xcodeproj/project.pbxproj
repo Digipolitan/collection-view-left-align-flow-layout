@@ -9,14 +9,13 @@
 /* Begin PBXBuildFile section */
 		391BAC284DC009AE1539290B /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A384675619DA33B089AA63D5 /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_iOS.framework */; };
 		A3169DBA1DE05E8300BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DB01DE05E8300BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework */; };
-		A3169DD61DE0631900BABAFD /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* TemplateClass.swift */; };
 		A3169DF81DE0718900BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DEF1DE0718900BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework */; };
 		A3169E761DE083D900BABAFD /* DGCollectionViewLeftAlignFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* DGCollectionViewLeftAlignFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3169E781DE083D900BABAFD /* DGCollectionViewLeftAlignFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* DGCollectionViewLeftAlignFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A38EF2CA1DECF97000637484 /* DGCollectionViewLeftAlignFlowLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* DGCollectionViewLeftAlignFlowLayoutTests.swift */; };
 		A38EF2CB1DECF97000637484 /* DGCollectionViewLeftAlignFlowLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* DGCollectionViewLeftAlignFlowLayoutTests.swift */; };
-		A3EAC50D1DE5FCBB00E4AA5E /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* TemplateClass.swift */; };
 		AB52C8698A273EEF859679C8 /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CB072CD7D856D32A81ED66 /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_tvOS.framework */; };
+		AECE0B1F1E363E9700B49167 /* DGCollectionViewLeftAlignFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECE0B1E1E363E9700B49167 /* DGCollectionViewLeftAlignFlowLayout.swift */; };
 		D18974EB8F0146E2BC8382B0 /* Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808D3B97D037CEEFAC85B152 /* Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_iOS.framework */; };
 		F0BFAB0E57A841A29051C5B7 /* Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C244503EFE94245B362A9DC /* Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_tvOS.framework */; };
 /* End PBXBuildFile section */
@@ -49,7 +48,6 @@
 		A3169DB91DE05E8300BABAFD /* DGCollectionViewLeftAlignFlowLayoutTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DGCollectionViewLeftAlignFlowLayoutTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169DCC1DE0629100BABAFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3169DD11DE062A000BABAFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3169DD41DE0631900BABAFD /* TemplateClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateClass.swift; sourceTree = "<group>"; };
 		A3169DDE1DE06EF400BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DGCollectionViewLeftAlignFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169DEF1DE0718900BABAFD /* DGCollectionViewLeftAlignFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DGCollectionViewLeftAlignFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169DF71DE0718900BABAFD /* DGCollectionViewLeftAlignFlowLayoutTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DGCollectionViewLeftAlignFlowLayoutTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +57,7 @@
 		A384675619DA33B089AA63D5 /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38EF2C71DECF97000637484 /* DGCollectionViewLeftAlignFlowLayoutTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCollectionViewLeftAlignFlowLayoutTests.swift; sourceTree = "<group>"; };
 		A780B899A19AFC14633C88DB /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS/Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		AECE0B1E1E363E9700B49167 /* DGCollectionViewLeftAlignFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCollectionViewLeftAlignFlowLayout.swift; sourceTree = "<group>"; };
 		BC34AB773E6BCA1F21FC4A4F /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS/Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D23013C7B916B914A529A963 /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS/Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		E5CB072CD7D856D32A81ED66 /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,9 +156,9 @@
 		A3169DCA1DE0629100BABAFD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A3169DD41DE0631900BABAFD /* TemplateClass.swift */,
 				A3169E751DE083D900BABAFD /* DGCollectionViewLeftAlignFlowLayout.h */,
 				A3169DCC1DE0629100BABAFD /* Info.plist */,
+				AECE0B1E1E363E9700B49167 /* DGCollectionViewLeftAlignFlowLayout.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -300,14 +299,10 @@
 					A3169DAF1DE05E8300BABAFD = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 582762VK3P;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					A3169DB81DE05E8300BABAFD = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 582762VK3P;
-						ProvisioningStyle = Automatic;
-					};
-					A3169DDD1DE06EF400BABAFD = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 582762VK3P;
 						ProvisioningStyle = Automatic;
@@ -319,17 +314,6 @@
 						ProvisioningStyle = Automatic;
 					};
 					A3169DF61DE0718900BABAFD = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 582762VK3P;
-						ProvisioningStyle = Automatic;
-					};
-					A3169E0B1DE072C700BABAFD = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 582762VK3P;
-						LastSwiftMigration = 0810;
-						ProvisioningStyle = Automatic;
-					};
-					A3169E131DE072C800BABAFD = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 582762VK3P;
 						ProvisioningStyle = Automatic;
@@ -573,7 +557,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169DD61DE0631900BABAFD /* TemplateClass.swift in Sources */,
+				AECE0B1F1E363E9700B49167 /* DGCollectionViewLeftAlignFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,7 +573,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3EAC50D1DE5FCBB00E4AA5E /* TemplateClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -733,6 +716,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.collectionviewleftalignflowlayout;
 				PRODUCT_NAME = DGCollectionViewLeftAlignFlowLayout;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -753,6 +738,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.collectionviewleftalignflowlayout;
 				PRODUCT_NAME = DGCollectionViewLeftAlignFlowLayout;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -760,7 +746,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3CBA85AD7AD9AA45D2FC07E7 /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -774,7 +760,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F68179E9A79AEFD2066F6DAE /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -833,7 +819,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B3E39F7A44F91D0F0A01789 /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -849,7 +834,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A780B899A19AFC14633C88DB /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;

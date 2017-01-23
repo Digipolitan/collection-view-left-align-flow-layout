@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DemoViewController" customModule="DGCollectionViewLeftAlignFlowLayoutSample_iOS" customModuleProvider="target">
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="title" value="ViewController"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="collectionView" destination="2gY-rE-Rl3" id="d2u-fz-vTZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="Kak-dB-OTu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="2gY-rE-Rl3">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xE4-7e-EoX" customClass="DGCollectionViewLeftAlignFlowLayout" customModule="DGCollectionViewLeftAlignFlowLayout">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="2gY-rE-Rl3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="9JW-Dv-g8q"/>
+                <constraint firstAttribute="trailing" secondItem="2gY-rE-Rl3" secondAttribute="trailing" id="GH7-4K-BH6"/>
+                <constraint firstItem="2gY-rE-Rl3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HK9-XM-iif"/>
+                <constraint firstAttribute="bottom" secondItem="2gY-rE-Rl3" secondAttribute="bottom" id="e9j-9j-KfW"/>
+            </constraints>
+            <point key="canvasLocation" x="-596" y="56"/>
+        </view>
+    </objects>
+</document>
