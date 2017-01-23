@@ -18,6 +18,7 @@ class DGCollectionViewLeftAlignFlowLayout: UICollectionViewFlowLayout {
 		var updatedAttributes = [UICollectionViewLayoutAttributes]()
 		attributesCollection.forEach({ (originalAttributes) in
 			guard originalAttributes.representedElementKind == nil else {
+				updatedAttributes.append(originalAttributes)
 				return
 			}
 
