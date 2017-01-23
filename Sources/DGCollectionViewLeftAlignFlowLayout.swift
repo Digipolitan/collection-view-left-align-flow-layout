@@ -54,7 +54,7 @@ class DGCollectionViewLeftAlignFlowLayout: UICollectionViewFlowLayout {
 		let interItemSpacing: CGFloat = (collectionView.delegate as? UICollectionViewDelegateFlowLayout)?
 			.collectionView?(collectionView, layout: self, minimumInteritemSpacingForSectionAt: indexPath.section) ?? self.minimumInteritemSpacing
 
-		let x = previousFrame.origin.x + previousFrame.width + interItemSpacing		
+		let x = previousFrame.origin.x + previousFrame.width + interItemSpacing
 		attributes.frame = CGRect(x: x,
 		                          y: attributes.frame.origin.y,
 		                          width: attributes.frame.width,
