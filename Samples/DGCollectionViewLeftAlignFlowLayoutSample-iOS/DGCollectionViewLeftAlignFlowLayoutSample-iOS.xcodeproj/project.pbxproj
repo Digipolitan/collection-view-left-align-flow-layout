@@ -90,16 +90,12 @@
 		A30D63F01E0D717E00A3CE45 /* DGCollectionViewLeftAlignFlowLayoutSample-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				AECE0B201E3642D100B49167 /* PathCell.swift */,
-				AECE0B211E3642D100B49167 /* PathCell.xib */,
-				AECE0B221E3642D100B49167 /* ReusableView.swift */,
-				AECE0B231E3642D100B49167 /* ReusableView.xib */,
 				A30D63F11E0D717E00A3CE45 /* AppDelegate.swift */,
-				A30D640D1E0D73B300A3CE45 /* DemoViewController.swift */,
-				A30D640E1E0D73B300A3CE45 /* DemoViewController.xib */,
 				A30D63F81E0D717E00A3CE45 /* Assets.xcassets */,
-				A30D63FA1E0D717E00A3CE45 /* LaunchScreen.storyboard */,
+				AECE0B281E3664AC00B49167 /* Components */,
+				AECE0B291E3664B400B49167 /* Controllers */,
 				A30D63FD1E0D717E00A3CE45 /* Info.plist */,
+				A30D63FA1E0D717E00A3CE45 /* LaunchScreen.storyboard */,
 			);
 			path = "DGCollectionViewLeftAlignFlowLayoutSample-iOS";
 			sourceTree = "<group>";
@@ -112,6 +108,26 @@
 				8971F06C0506E7C4223846C3 /* Pods_Samples_DGCollectionViewLeftAlignFlowLayoutSample_iOS.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AECE0B281E3664AC00B49167 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AECE0B201E3642D100B49167 /* PathCell.swift */,
+				AECE0B211E3642D100B49167 /* PathCell.xib */,
+				AECE0B221E3642D100B49167 /* ReusableView.swift */,
+				AECE0B231E3642D100B49167 /* ReusableView.xib */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		AECE0B291E3664B400B49167 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A30D640D1E0D73B300A3CE45 /* DemoViewController.swift */,
+				A30D640E1E0D73B300A3CE45 /* DemoViewController.xib */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		B8FF5AA30A09A2E69BAC9EB0 /* Pods */ = {
