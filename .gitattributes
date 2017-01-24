@@ -1,0 +1,6 @@
+fastlane/* linguist-vendored
+*.rb linguist-vendored
+Podfile* linguist-vendored
+Gemfile* linguist-vendored
+Brewfile* linguist-vendored
+*.podspec linguist-vendored

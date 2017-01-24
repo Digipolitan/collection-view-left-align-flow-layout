@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34DDE7D37FD36E461D4A12B8 /* Pods_Samples_DGCollectionViewLeftAlignFlowLayoutSample_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C7555CFD588FF39D73FDF1 /* Pods_Samples_DGCollectionViewLeftAlignFlowLayoutSample_tvOS.framework */; };
+		A30D64901E0D7B2A00A3CE45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D648F1E0D7B2A00A3CE45 /* AppDelegate.swift */; };
+		A30D64971E0D7B2A00A3CE45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30D64961E0D7B2A00A3CE45 /* Assets.xcassets */; };
+		A30D649F1E0D7BA200A3CE45 /* DGCollectionViewLeftAlignFlowLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30D649E1E0D7BA200A3CE45 /* DGCollectionViewLeftAlignFlowLayout.framework */; };
+		A30D64A01E0D7BA200A3CE45 /* DGCollectionViewLeftAlignFlowLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A30D649E1E0D7BA200A3CE45 /* DGCollectionViewLeftAlignFlowLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A30D64A51E0D7BC200A3CE45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D64A31E0D7BC200A3CE45 /* ViewController.swift */; };
+		A30D64A61E0D7BC200A3CE45 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A30D64A41E0D7BC200A3CE45 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A30D64A11E0D7BA200A3CE45 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A30D64A01E0D7BA200A3CE45 /* DGCollectionViewLeftAlignFlowLayout.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		066D1A22246FF0D2CA34D179 /* Pods-DGCollectionViewLeftAlignFlowLayoutSample-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGCollectionViewLeftAlignFlowLayoutSample-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-DGCollectionViewLeftAlignFlowLayoutSample-DGCollectionViewLeftAlignFlowLayoutSample-tvOS/Pods-DGCollectionViewLeftAlignFlowLayoutSample-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		37F6C77DDB9960488AEFDF89 /* Pods-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-DGCollectionViewLeftAlignFlowLayoutSample-tvOS/Pods-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		63C7555CFD588FF39D73FDF1 /* Pods_Samples_DGCollectionViewLeftAlignFlowLayoutSample_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Samples_DGCollectionViewLeftAlignFlowLayoutSample_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		834A6462DDEA44C90F6C4159 /* Pods-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-DGCollectionViewLeftAlignFlowLayoutSample-tvOS/Pods-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		86F04D0709DA0D6A2D69C509 /* Pods_DGCollectionViewLeftAlignFlowLayoutSample_DGCollectionViewLeftAlignFlowLayoutSample_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGCollectionViewLeftAlignFlowLayoutSample_DGCollectionViewLeftAlignFlowLayoutSample_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5D11F835CD3CA7BB6F03DF /* Pods_DGCollectionViewLeftAlignFlowLayoutSample_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGCollectionViewLeftAlignFlowLayoutSample_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30D648C1E0D7B2A00A3CE45 /* DGCollectionViewLeftAlignFlowLayoutSample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DGCollectionViewLeftAlignFlowLayoutSample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30D648F1E0D7B2A00A3CE45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A30D64961E0D7B2A00A3CE45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A30D64981E0D7B2A00A3CE45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30D649E1E0D7BA200A3CE45 /* DGCollectionViewLeftAlignFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DGCollectionViewLeftAlignFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30D64A31E0D7BC200A3CE45 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A30D64A41E0D7BC200A3CE45 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		B59EBA76E4EE0948B3D0809A /* Pods-DGCollectionViewLeftAlignFlowLayoutSample-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGCollectionViewLeftAlignFlowLayoutSample-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-DGCollectionViewLeftAlignFlowLayoutSample-DGCollectionViewLeftAlignFlowLayoutSample-tvOS/Pods-DGCollectionViewLeftAlignFlowLayoutSample-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		ED2ADEE910CDAC99133FE3EF /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS/Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FFD332EBB09E825D4FA391D8 /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS/Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30D64891E0D7B2A00A3CE45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30D649F1E0D7BA200A3CE45 /* DGCollectionViewLeftAlignFlowLayout.framework in Frameworks */,
+				34DDE7D37FD36E461D4A12B8 /* Pods_Samples_DGCollectionViewLeftAlignFlowLayoutSample_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7406AAB64BCC5F8B0262648E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37F6C77DDB9960488AEFDF89 /* Pods-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.debug.xcconfig */,
+				834A6462DDEA44C90F6C4159 /* Pods-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.release.xcconfig */,
+				066D1A22246FF0D2CA34D179 /* Pods-DGCollectionViewLeftAlignFlowLayoutSample-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.debug.xcconfig */,
+				B59EBA76E4EE0948B3D0809A /* Pods-DGCollectionViewLeftAlignFlowLayoutSample-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.release.xcconfig */,
+				ED2ADEE910CDAC99133FE3EF /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.debug.xcconfig */,
+				FFD332EBB09E825D4FA391D8 /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A30D64831E0D7B2A00A3CE45 = {
+			isa = PBXGroup;
+			children = (
+				A30D648E1E0D7B2A00A3CE45 /* DGCollectionViewLeftAlignFlowLayoutSample-tvOS */,
+				A30D64A21E0D7BA600A3CE45 /* Frameworks */,
+				A30D648D1E0D7B2A00A3CE45 /* Products */,
+				7406AAB64BCC5F8B0262648E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A30D648D1E0D7B2A00A3CE45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30D648C1E0D7B2A00A3CE45 /* DGCollectionViewLeftAlignFlowLayoutSample-tvOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A30D648E1E0D7B2A00A3CE45 /* DGCollectionViewLeftAlignFlowLayoutSample-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				A30D648F1E0D7B2A00A3CE45 /* AppDelegate.swift */,
+				A30D64A31E0D7BC200A3CE45 /* ViewController.swift */,
+				A30D64A41E0D7BC200A3CE45 /* ViewController.xib */,
+				A30D64961E0D7B2A00A3CE45 /* Assets.xcassets */,
+				A30D64981E0D7B2A00A3CE45 /* Info.plist */,
+			);
+			path = "DGCollectionViewLeftAlignFlowLayoutSample-tvOS";
+			sourceTree = "<group>";
+		};
+		A30D64A21E0D7BA600A3CE45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A30D649E1E0D7BA200A3CE45 /* DGCollectionViewLeftAlignFlowLayout.framework */,
+				8D5D11F835CD3CA7BB6F03DF /* Pods_DGCollectionViewLeftAlignFlowLayoutSample_tvOS.framework */,
+				86F04D0709DA0D6A2D69C509 /* Pods_DGCollectionViewLeftAlignFlowLayoutSample_DGCollectionViewLeftAlignFlowLayoutSample_tvOS.framework */,
+				63C7555CFD588FF39D73FDF1 /* Pods_Samples_DGCollectionViewLeftAlignFlowLayoutSample_tvOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A30D648B1E0D7B2A00A3CE45 /* DGCollectionViewLeftAlignFlowLayoutSample-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A30D649B1E0D7B2A00A3CE45 /* Build configuration list for PBXNativeTarget "DGCollectionViewLeftAlignFlowLayoutSample-tvOS" */;
+			buildPhases = (
+				C9C3C7D7C59B1AB10EA77253 /* [CP] Check Pods Manifest.lock */,
+				A30D64881E0D7B2A00A3CE45 /* Sources */,
+				A30D64891E0D7B2A00A3CE45 /* Frameworks */,
+				A30D648A1E0D7B2A00A3CE45 /* Resources */,
+				A30D64A11E0D7BA200A3CE45 /* Embed Frameworks */,
+				6F91670C5C8679B959E65CFB /* [CP] Embed Pods Frameworks */,
+				7A423DABB450FAAD99D572FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DGCollectionViewLeftAlignFlowLayoutSample-tvOS";
+			productName = "DGCollectionViewLeftAlignFlowLayoutSample-tvOS";
+			productReference = A30D648C1E0D7B2A00A3CE45 /* DGCollectionViewLeftAlignFlowLayoutSample-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A30D64841E0D7B2A00A3CE45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Digipolitan;
+				TargetAttributes = {
+					A30D648B1E0D7B2A00A3CE45 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 582762VK3P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A30D64871E0D7B2A00A3CE45 /* Build configuration list for PBXProject "DGCollectionViewLeftAlignFlowLayoutSample-tvOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A30D64831E0D7B2A00A3CE45;
+			productRefGroup = A30D648D1E0D7B2A00A3CE45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A30D648B1E0D7B2A00A3CE45 /* DGCollectionViewLeftAlignFlowLayoutSample-tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A30D648A1E0D7B2A00A3CE45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30D64A61E0D7BC200A3CE45 /* ViewController.xib in Resources */,
+				A30D64971E0D7B2A00A3CE45 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F91670C5C8679B959E65CFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS/Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A423DABB450FAAD99D572FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS/Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9C3C7D7C59B1AB10EA77253 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A30D64881E0D7B2A00A3CE45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30D64A51E0D7BC200A3CE45 /* ViewController.swift in Sources */,
+				A30D64901E0D7B2A00A3CE45 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A30D64991E0D7B2A00A3CE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		A30D649A1E0D7B2A00A3CE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		A30D649C1E0D7B2A00A3CE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED2ADEE910CDAC99133FE3EF /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				INFOPLIST_FILE = "DGCollectionViewLeftAlignFlowLayoutSample-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digipolitan.DGCollectionViewLeftAlignFlowLayoutSample-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		A30D649D1E0D7B2A00A3CE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD332EBB09E825D4FA391D8 /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				INFOPLIST_FILE = "DGCollectionViewLeftAlignFlowLayoutSample-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digipolitan.DGCollectionViewLeftAlignFlowLayoutSample-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A30D64871E0D7B2A00A3CE45 /* Build configuration list for PBXProject "DGCollectionViewLeftAlignFlowLayoutSample-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30D64991E0D7B2A00A3CE45 /* Debug */,
+				A30D649A1E0D7B2A00A3CE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A30D649B1E0D7B2A00A3CE45 /* Build configuration list for PBXNativeTarget "DGCollectionViewLeftAlignFlowLayoutSample-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30D649C1E0D7B2A00A3CE45 /* Debug */,
+				A30D649D1E0D7B2A00A3CE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A30D64841E0D7B2A00A3CE45 /* Project object */;
+}

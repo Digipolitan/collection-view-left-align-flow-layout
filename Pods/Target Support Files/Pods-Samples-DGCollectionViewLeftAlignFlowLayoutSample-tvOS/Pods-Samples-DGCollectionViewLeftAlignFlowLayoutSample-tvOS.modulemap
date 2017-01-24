@@ -1,0 +1,6 @@
+framework module Pods_Samples_DGCollectionViewLeftAlignFlowLayoutSample_tvOS {
+  umbrella header "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

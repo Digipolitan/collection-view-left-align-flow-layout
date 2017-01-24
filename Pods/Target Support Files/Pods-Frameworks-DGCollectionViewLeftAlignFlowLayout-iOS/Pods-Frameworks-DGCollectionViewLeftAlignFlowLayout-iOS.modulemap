@@ -1,0 +1,6 @@
+framework module Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_iOS {
+  umbrella header "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
