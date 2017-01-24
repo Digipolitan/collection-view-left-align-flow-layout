@@ -1,5 +1,5 @@
-#ifndef _DGFRAMEWORKTEMPLATE_H
-#define _DGFRAMEWORKTEMPLATE_H
+#ifndef _DGCOLLECTIONVIEWLEFTALIGNFLOWLAYOUT_H
+#define _DGCOLLECTIONVIEWLEFTALIGNFLOWLAYOUT_H
 
 #import <Foundation/Foundation.h>
 
@@ -9,4 +9,4 @@ FOUNDATION_EXPORT double DGCollectionViewLeftAlignFlowLayoutVersionNumber;
 //! Project version string for DGCollectionViewLeftAlignFlowLayout
 FOUNDATION_EXPORT const unsigned char DGCollectionViewLeftAlignFlowLayoutVersionString[];
 
-#endif /* _DGFRAMEWORKTEMPLATE_H */
+#endif /* _DGCOLLECTIONVIEWLEFTALIGNFLOWLAYOUT_H */

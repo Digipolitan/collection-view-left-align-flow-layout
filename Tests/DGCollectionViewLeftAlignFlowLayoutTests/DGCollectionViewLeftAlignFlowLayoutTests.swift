@@ -11,7 +11,4 @@ class DGCollectionViewLeftAlignFlowLayoutTests: XCTestCase {
         super.tearDown()
     }
 
-    func testDescription() {
-        XCTAssertEqual("TemplateDescription", "TemplateDescription")
-    }
 }

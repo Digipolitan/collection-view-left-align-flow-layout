@@ -25,7 +25,6 @@ class DemoViewController: UIViewController {
 	}
 }
 
-
 extension DemoViewController: UICollectionViewDataSource {
 	func numberOfSections(in collectionView: UICollectionView) -> Int {
 		return 2
