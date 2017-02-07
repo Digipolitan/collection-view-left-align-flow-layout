@@ -7,7 +7,7 @@ DGCollectionViewLeftAlignFlowLayout
 [![Platform](https://img.shields.io/cocoapods/p/DGCollectionViewLeftAlignFlowLayout.svg?style=flat)](http://cocoadocs.org/docsets/DGCollectionViewLeftAlignFlowLayout)
 [![Twitter](https://img.shields.io/badge/twitter-@Digipolitan-blue.svg?style=flat)](http://twitter.com/Digipolitan)
 
-The `DGCollectionViewLeftAlignFlowLayout` is a simple layout that align does not try to fulfill the lines but stick elements to the left.
+The `DGCollectionViewLeftAlignFlowLayout` is a simple layout that does not fulfill the lines but stick elements to the left.
 
 ![Original FlowLayout](https://github.com/Digipolitan/collection-view-left-align-flow-layout-swift/blob/develop/Screenshots/flow-layout.png?raw=true "Original")
 ![Left Aligned](https://github.com/Digipolitan/collection-view-left-align-flow-layout-swift/blob/develop/Screenshots/left-layout.png?raw=true "Left Aligned")
@@ -45,7 +45,7 @@ end
 
 ## Usage
 
-Initialize your behavior
+Initialize your layout
 
 ```swift
 	self.collectionView.collectionViewLayout = DGCollectionViewLeftAlignFlowLayout()
