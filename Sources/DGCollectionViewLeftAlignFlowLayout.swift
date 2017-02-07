@@ -9,6 +9,9 @@
 import UIKit
 
 public class DGCollectionViewLeftAlignFlowLayout: UICollectionViewFlowLayout {
+	var delegate : UICollectionViewDelegateFlowLayout? {
+		return self.collectionView?.delegate as? UICollectionViewDelegateFlowLayout
+	}
 
 	override public func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
 		guard let attributesCollection = super.layoutAttributesForElements(in: rect) else {
@@ -35,8 +38,15 @@ public class DGCollectionViewLeftAlignFlowLayout: UICollectionViewFlowLayout {
 			return nil
 		}
 
+		guard let collectionView = self.collectionView else {
+			return attributes
+		}
+
 		let firstInSection: Bool = indexPath.item == 0
 		guard !firstInSection else {
+			let section = attributes.indexPath.section
+			let x = self.delegate?.collectionView?(collectionView, layout: self, insetForSectionAt: section).left ?? self.sectionInset.left
+			attributes.frame.origin.x = x
 			return attributes
 		}
 
@@ -45,10 +55,9 @@ public class DGCollectionViewLeftAlignFlowLayout: UICollectionViewFlowLayout {
 		let firstInRow = previousFrame.origin.y != attributes.frame.origin.y
 
 		guard !firstInRow else {
-			return attributes
-		}
-
-		guard let collectionView = self.collectionView else {
+			let section = attributes.indexPath.section
+			let x = self.delegate?.collectionView?(collectionView, layout: self, insetForSectionAt: section).left ?? self.sectionInset.left
+			attributes.frame.origin.x = x
 			return attributes
 		}
 
