@@ -8,9 +8,12 @@
 
 import UIKit
 
-class DGCollectionViewLeftAlignFlowLayout: UICollectionViewFlowLayout {
+public class DGCollectionViewLeftAlignFlowLayout: UICollectionViewFlowLayout {
+	var delegate : UICollectionViewDelegateFlowLayout? {
+		return self.collectionView?.delegate as? UICollectionViewDelegateFlowLayout
+	}
 
-	override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
+	override public func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
 		guard let attributesCollection = super.layoutAttributesForElements(in: rect) else {
 			return nil
 		}
@@ -30,13 +33,20 @@ class DGCollectionViewLeftAlignFlowLayout: UICollectionViewFlowLayout {
 		return updatedAttributes
 	}
 
-	override func layoutAttributesForItem(at indexPath: IndexPath) -> UICollectionViewLayoutAttributes? {
+	override public func layoutAttributesForItem(at indexPath: IndexPath) -> UICollectionViewLayoutAttributes? {
 		guard let attributes = super.layoutAttributesForItem(at: indexPath)?.copy() as? UICollectionViewLayoutAttributes else {
 			return nil
 		}
 
+		guard let collectionView = self.collectionView else {
+			return attributes
+		}
+
 		let firstInSection: Bool = indexPath.item == 0
 		guard !firstInSection else {
+			let section = attributes.indexPath.section
+			let x = self.delegate?.collectionView?(collectionView, layout: self, insetForSectionAt: section).left ?? self.sectionInset.left
+			attributes.frame.origin.x = x
 			return attributes
 		}
 
@@ -45,10 +55,9 @@ class DGCollectionViewLeftAlignFlowLayout: UICollectionViewFlowLayout {
 		let firstInRow = previousFrame.origin.y != attributes.frame.origin.y
 
 		guard !firstInRow else {
-			return attributes
-		}
-
-		guard let collectionView = self.collectionView else {
+			let section = attributes.indexPath.section
+			let x = self.delegate?.collectionView?(collectionView, layout: self, insetForSectionAt: section).left ?? self.sectionInset.left
+			attributes.frame.origin.x = x
 			return attributes
 		}
 
