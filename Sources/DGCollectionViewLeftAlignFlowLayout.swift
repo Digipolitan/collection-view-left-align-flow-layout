@@ -52,7 +52,7 @@ public class DGCollectionViewLeftAlignFlowLayout: UICollectionViewFlowLayout {
 
 		let previousAttributes = self.layoutAttributesForItem(at: IndexPath(item: indexPath.item - 1, section: indexPath.section))
 		let previousFrame: CGRect = previousAttributes?.frame ?? CGRect()
-		let firstInRow = previousFrame.origin.y != attributes.frame.origin.y
+		let firstInRow = previousAttributes?.center.y != attributes.center.y
 
 		guard !firstInRow else {
 			let section = attributes.indexPath.section
