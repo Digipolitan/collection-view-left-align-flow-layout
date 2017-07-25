@@ -9,7 +9,7 @@
 import UIKit
 
 public class DGCollectionViewLeftAlignFlowLayout: UICollectionViewFlowLayout {
-	var delegate : UICollectionViewDelegateFlowLayout? {
+	var delegate: UICollectionViewDelegateFlowLayout? {
 		return self.collectionView?.delegate as? UICollectionViewDelegateFlowLayout
 	}
 
