@@ -8,12 +8,12 @@
 
 import UIKit
 
-public class DGCollectionViewLeftAlignFlowLayout: UICollectionViewFlowLayout {
+open class DGCollectionViewLeftAlignFlowLayout: UICollectionViewFlowLayout {
 	var delegate: UICollectionViewDelegateFlowLayout? {
 		return self.collectionView?.delegate as? UICollectionViewDelegateFlowLayout
 	}
 
-	override public func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
+	override open func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
 		guard let attributesCollection = super.layoutAttributesForElements(in: rect) else {
 			return nil
 		}
@@ -33,7 +33,7 @@ public class DGCollectionViewLeftAlignFlowLayout: UICollectionViewFlowLayout {
 		return updatedAttributes
 	}
 
-	override public func layoutAttributesForItem(at indexPath: IndexPath) -> UICollectionViewLayoutAttributes? {
+	override open func layoutAttributesForItem(at indexPath: IndexPath) -> UICollectionViewLayoutAttributes? {
 		guard let attributes = super.layoutAttributesForItem(at: indexPath)?.copy() as? UICollectionViewLayoutAttributes else {
 			return nil
 		}
