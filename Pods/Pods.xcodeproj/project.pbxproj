@@ -29,11 +29,11 @@
 
 /* Begin PBXFileReference section */
 		03689EFAFB707B3C20AA955E265B2C80 /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		074641117AF4AB6097AA916F9AAECFA9 /* Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		074641117AF4AB6097AA916F9AAECFA9 /* Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_iOS.framework; path = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07773CD80AEB2940100DC9190860BCC8 /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		07BB467F48358C4255911FABC151E49D /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS-umbrella.h"; sourceTree = "<group>"; };
 		0AA38D48A749D99D6AD520D472C7690F /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0FA32C336C9B7A4189C698938D694B05 /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.modulemap"; sourceTree = "<group>"; };
+		0FA32C336C9B7A4189C698938D694B05 /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.modulemap"; sourceTree = "<group>"; };
 		10EFB54804E52C63056A31643E9C5F27 /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS-umbrella.h"; sourceTree = "<group>"; };
 		13260F8C1D5197ABF0782C8D50C2FDD7 /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		164ADFFFF560935149F5DA6B8BA9135A /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -43,31 +43,31 @@
 		2368063DA4B3E5F546B06B781910EE96 /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS-resources.sh"; sourceTree = "<group>"; };
 		27307C117C63FB466C463B6FA87AD21B /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2A5B9791ADE347180143A825F3AFB368 /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS-dummy.m"; sourceTree = "<group>"; };
-		2D2572DE9E021FCD77CA12AA2B277341 /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.modulemap"; sourceTree = "<group>"; };
+		2D2572DE9E021FCD77CA12AA2B277341 /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.modulemap"; sourceTree = "<group>"; };
 		2F641A35621B2D73DB8FFD79783535E2 /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS-dummy.m"; sourceTree = "<group>"; };
 		2FF16186B97842B345028EF228902543 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3403182300F73F7621B648E2D014FF4C /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		38D800CEF36EB27EF5F34DFA2A098E42 /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		3DFBA42DDB3751341734AC7A8297BB39 /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		3FEBCF4B74DDF78E2E41AE08661CD35C /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.modulemap"; sourceTree = "<group>"; };
+		3FEBCF4B74DDF78E2E41AE08661CD35C /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.modulemap"; sourceTree = "<group>"; };
 		43540D1B60A1A583776231296F90F8BC /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS-dummy.m"; sourceTree = "<group>"; };
 		435A67B937560BC23389D7728652CBF2 /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5E50A3708BA901BA2973AA6EF62C6B12 /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-iOS-dummy.m"; sourceTree = "<group>"; };
-		657F92CA44507A15F86F8AEAF4C4EE0C /* Pods_Samples_DGCollectionViewLeftAlignFlowLayoutSample_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Samples_DGCollectionViewLeftAlignFlowLayoutSample_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		657F92CA44507A15F86F8AEAF4C4EE0C /* Pods_Samples_DGCollectionViewLeftAlignFlowLayoutSample_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Samples_DGCollectionViewLeftAlignFlowLayoutSample_iOS.framework; path = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E7346C371FEF2AD9B416C561337107 /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS-frameworks.sh"; sourceTree = "<group>"; };
 		6A0BBAC9A3C9148FFED2B120B2C0671A /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-iOS-umbrella.h"; sourceTree = "<group>"; };
 		74D2F3A8FE32D852DD1FC076A2A72166 /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS-umbrella.h"; sourceTree = "<group>"; };
-		74F00DB6DF3D3203EE3DB8C03FB601C5 /* Pods_Samples_DGCollectionViewLeftAlignFlowLayoutSample_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Samples_DGCollectionViewLeftAlignFlowLayoutSample_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F00DB6DF3D3203EE3DB8C03FB601C5 /* Pods_Samples_DGCollectionViewLeftAlignFlowLayoutSample_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Samples_DGCollectionViewLeftAlignFlowLayoutSample_tvOS.framework; path = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78204727478AB18DA3364E05C2E90CA0 /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-iOS-resources.sh"; sourceTree = "<group>"; };
 		7BB2D506C41DA749C6259A3A55972BB1 /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		7C9210091B471C48A16D5A45ECCEAE5C /* Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E3D73EC82751107718E407E6EAAA575 /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.modulemap"; sourceTree = "<group>"; };
+		7C9210091B471C48A16D5A45ECCEAE5C /* Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Frameworks_DGCollectionViewLeftAlignFlowLayout_tvOS.framework; path = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3D73EC82751107718E407E6EAAA575 /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.modulemap"; sourceTree = "<group>"; };
 		84F8F17F7C4E899B1D63EA7C48F9ECE4 /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		86721737837B94065D17565D2DE24AD4 /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS-frameworks.sh"; sourceTree = "<group>"; };
 		8AB5A2BCE82FC1ABD0C5286538B46743 /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		8B4231A4C5F596F8A56D86028DCAFB99 /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		90E2D82716A8B26F18B783FF6A94BFC1 /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		90E2D82716A8B26F18B783FF6A94BFC1 /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_tvOS.framework; path = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D48912B8B70552CB7E69D87039E4C2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9E177D1AB3670FD1EAC39A4A074BFB1D /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS-resources.sh"; sourceTree = "<group>"; };
 		A5517E3C9DD981AB1477E070E84C2E09 /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-iOS-frameworks.sh"; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		B600D8D920FD859BF53323C3D9E2B021 /* Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Frameworks-DGCollectionViewLeftAlignFlowLayout-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		BA18D960942D09E0AEDE79F40F9B3B68 /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS-frameworks.sh"; sourceTree = "<group>"; };
 		BF10C5FDF468B59109DA1BED6C7345A4 /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		C9A293726D22A0070CA3E263283B808F /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.modulemap"; sourceTree = "<group>"; };
+		C9A293726D22A0070CA3E263283B808F /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.modulemap"; sourceTree = "<group>"; };
 		D321D94FBE44B44F4FF95B462E081D0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DACE98E6B73444B4E03AD78540D31C36 /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS-umbrella.h"; sourceTree = "<group>"; };
 		DCAD5A19ACB9958EE43652181789635C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 		E8997C23056990EAD2C8DC8657C3131B /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		E89CCC94F17EC560C78ED506CF416FAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E99F99B2B17D0B58662675CF3A471941 /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS-dummy.m"; sourceTree = "<group>"; };
-		ED2BCFBA1A4203CBDDDEC124EFAB2581 /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-iOS.modulemap"; sourceTree = "<group>"; };
+		ED2BCFBA1A4203CBDDDEC124EFAB2581 /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-iOS.modulemap"; sourceTree = "<group>"; };
 		ED82AC908AC11066F59F01640A093A40 /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		F21CA61594CCFB31531E1B5BB4119AAC /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21CA61594CCFB31531E1B5BB4119AAC /* Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tests_DGCollectionViewLeftAlignFlowLayoutTests_iOS.framework; path = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F67AEE8A78531D83756D9889ED6B85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F66BDAE5C78F3C91851E511F8A72EBD1 /* Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Samples-DGCollectionViewLeftAlignFlowLayoutSample-tvOS-umbrella.h"; sourceTree = "<group>"; };
 		F70498BDE0F603788D9B51EADB1F7E6D /* Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-DGCollectionViewLeftAlignFlowLayoutTests-tvOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -479,7 +479,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -599,29 +599,19 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -720,30 +710,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
