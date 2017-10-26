@@ -1,7 +1,7 @@
 DGCollectionViewLeftAlignFlowLayout
 =================================
 
-[![Build Status](https://travis-ci.org/Digipolitan/collection-view-left-align-flow-layout-swift.svg?branch=master)](https://travis-ci.org/Digipolitan/collection-view-left-align-flow-layout-swift)
+[![Build Status](https://travis-ci.org/Digipolitan/collection-view-left-align-flow-layout.svg?branch=master)](https://travis-ci.org/Digipolitan/collection-view-left-align-flow-layout)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/DGCollectionViewLeftAlignFlowLayout.svg)](https://img.shields.io/cocoapods/v/DGCollectionViewLeftAlignFlowLayout.svg)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Platform](https://img.shields.io/cocoapods/p/DGCollectionViewLeftAlignFlowLayout.svg?style=flat)](http://cocoadocs.org/docsets/DGCollectionViewLeftAlignFlowLayout)
@@ -9,8 +9,8 @@ DGCollectionViewLeftAlignFlowLayout
 
 The `DGCollectionViewLeftAlignFlowLayout` is a simple layout that align does not try to fulfill the lines but stick elements to the left.
 
-![Original FlowLayout](https://github.com/Digipolitan/collection-view-left-align-flow-layout-swift/blob/develop/Screenshots/flow-layout.png?raw=true "Original")
-![Left Aligned](https://github.com/Digipolitan/collection-view-left-align-flow-layout-swift/blob/develop/Screenshots/left-layout.png?raw=true "Left Aligned")
+![Original FlowLayout](https://github.com/Digipolitan/collection-view-left-align-flow-layout/blob/develop/Screenshots/flow-layout.png?raw=true "Original")
+![Left Aligned](https://github.com/Digipolitan/collection-view-left-align-flow-layout/blob/develop/Screenshots/left-layout.png?raw=true "Left Aligned")
 
 
 
