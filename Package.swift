@@ -18,7 +18,7 @@ let package = Package(
     targets: [
         .target(
             name: "collection-view-left-align-flow-layout",
-            path: "Source"
+            path: "Sources"
         )
     ]
 )
