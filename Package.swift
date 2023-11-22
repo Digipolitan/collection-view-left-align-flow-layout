@@ -2,14 +2,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "collection-view-left-align-flow-layout",
+    name: "DGCollectionViewLeftAlignFlowLayout",
     platforms: [
         .iOS(.v12)
     ],
     products: [
         .library(
-            name: "collection-view-left-align-flow-layout",
-            targets: ["collection-view-left-align-flow-layout"]
+            name: "DGCollectionViewLeftAlignFlowLayout",
+            targets: ["DGCollectionViewLeftAlignFlowLayout"]
         )
     ],
     dependencies: [
@@ -17,8 +17,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "collection-view-left-align-flow-layout",
-            path: "Source"
+            name: "DGCollectionViewLeftAlignFlowLayout",
+            path: "Sources"
         )
     ]
 )
