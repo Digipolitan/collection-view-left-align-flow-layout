@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "collection-view-left-align-flow-layout",
     platforms: [
-        .iOS(.v8)
+        .iOS(.v12)
     ],
     products: [
         .library(
